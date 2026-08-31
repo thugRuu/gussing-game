@@ -20,4 +20,7 @@ match selectoperator:
     case "*":
         print(number1*number2)
     case "/":
-        print(number1/number2)
+        if number2 == 0:
+            print("not divisible")
+        else:
+            print(number1/number2)
